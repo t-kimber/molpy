@@ -5,6 +5,7 @@ A nice molecule manipulation package.
 
 # Add imports here
 from .molpy import *
+from . import util
 
 # Handle versioneer
 from ._version import get_versions
