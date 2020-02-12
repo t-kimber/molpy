@@ -6,6 +6,9 @@ molpy
 
 A nice molecule manipulation package. 
 And nice features. 
+
+And GitHub tests.
+
 ### Copyright
 
 Copyright (c) 2020, Talia Kimber
