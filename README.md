@@ -5,7 +5,7 @@ molpy
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molpy/branch/master)
 
 A nice molecule manipulation package. 
-
+And nice features. 
 ### Copyright
 
 Copyright (c) 2020, Talia Kimber
