@@ -8,7 +8,7 @@ def read_xyz(filename):
 
     data = data[2:]
     data = [x.split() for x in data]
-    print(data)
+    #print(data)
     symbols = [x[0] for x in data]
     xyz = np.array([[float(y) for y in x[1:]] for x in data])
 
