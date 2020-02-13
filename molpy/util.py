@@ -2,6 +2,18 @@ import numpy as np
 
 
 def read_xyz(filename):
+    """
+    Reads an XYZ file of a molecule.
+
+    Parameters
+    ----------
+    filename: str
+        The name of the file that will be read.
+
+    Returns
+    -------
+    ndarray: the symbols and the geometry for the atoms of the molecule in the XYZ file.
+    """
 
     with open(filename, "r") as handle:
         data = handle.readlines()
@@ -29,7 +41,11 @@ def distance(point1, point2):
     Returns
     -------
     float
-        The distance between point1 and point 2.
+        The distance between the first and second points.
+
+    Notes
+    -----
+    Link to the `wiki page <https://en.wikipedia.org/wiki/Euclidean_distance>`_
     """
 
     point1 = np.asarray(point1)
