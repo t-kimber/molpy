@@ -21,7 +21,7 @@ except:
 
 setup(
     # Self-descriptive entries which should always be present
-    name='molpy',
+    name='molpy-tkimber',
     author='Talia Kimber',
     author_email='talia.kimber@gmail.com',
     description=short_description[0],
