@@ -15,5 +15,11 @@ def test_molpy_imported():
 def test_molecule_distance():
 
 	mol = molpy.Molecule(["He", "He"], [[0, 0, 0], [0, 0, 1]])
+
+	assert pytest.approx(1.0) == mol.distance(0,1)
+
+def test_name_molecule_distance():
+
+	mol = molpy.NamedMolecule("Helium Dimer", ["He", "He"], [[0, 0, 0], [0, 0, 1]])
 	
 	assert pytest.approx(1.0) == mol.distance(0,1)
