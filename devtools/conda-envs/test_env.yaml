@@ -2,7 +2,7 @@ name: test
 channels:
 dependencies:
     # Base depends
-  - python>=3.7
+  - python>=3.6
   - pip
   - numpy>=1.14
 
